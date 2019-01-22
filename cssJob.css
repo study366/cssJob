@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.wrap{
+	width: 100%;
+	overflow: hidden;
+	height: 100%;
+}
+/*这一部分是head的样式↓↓↓	*/
+
+.head{
+	width: 100%;
+	height: 4em;
+	overflow: hidden;
+	background-color: #07cbc9;
+	line-height: 4em;
+	color: white;
+}
+/*设置头部浮动*/
+.head .logo{
+	float: left;
+	padding: 0 8em;
+	} 
+.head .headNav{
+	position: absolute;
+	right:  4em;
+}
+
+.head .headNav li{
+	list-style-type: none;
+	float: left;
+	margin: 0 0.5em 0 0.5em;
+}
+/*head 样式设置结束↑↑↑*/
+
+/*head区域样式设置*/
+/*head区域样式设置*/
+.banner{
+	background-image: url(./images/banner3.jpg);
+	background-size:100% 100%;
+	position: absolute;
+	top:4em;
+	width: 100%;
+	height: 30em;
+	background-repeat: no-repeat;
+}
+
+.banner li{
+	text-align: center;
+	margin: 2em 0 0em 0;
+	list-style-type: none;
+}
+.banner input{
+	width: 30em;
+	height: 2em;
+	border: 10 solid pink;
+}
+.banner textarea{
+	font-size: 16px;
+	width: 30em;
+	height: 4em;
+
+}
+.submit{
+	
+	width: 10em !important;
+	height: 1.5em !important;
+	color: gray;
+}
+/*head区域样式设置*/
+/*head区域样式设置*/
+
+/*about样式设置*/
+.about{
+	width: 100%;
+	position: absolute;
+	top: 34em;
+	overflow: hidden;
+}
+.about .topWord{
+	padding-top:  3.4em;
+	position: relative;
+	text-align: center;
+}
+.topLine{
+	width: 5em;
+	height: 0;
+	border: .1em solid gray;
+	margin: 0 auto;
+}
+/*这是一条hr设置的线条，弃用*/
+/*.about hr{
+	width: 5em;
+	height: 0.1em;
+	position: relative;
+	left: 50%;
+	margin-left: -2.5em;
+}*/
+.about h1{
+	font-size: 5em;
+	text-transform: uppercase;
+	text-align: center;
+}
+.about .topWord .Description{
+	text-align: center;
+	font-size: 0.7em;
+	color: #999999;
+}
+/*中部三栏*/
+/*左侧文字*/
+.mid .left h1{
+	text-transform: uppercase;
+	font-size: 1.7em;
+	font-family: "隶书";
+	text-align: left;
+	padding-left: 1.8em;
+}
+.mid .left{
+	width: 22em;
+	height: 20em;
+	position: relative;
+	left: 30%;
+	margin-left: -10em;
+	z-index: 1;
+	opacity: 0.7;
+}
+.mid .wordBox{
+	width: 100%;
+	height: 8em;
+	padding:2em 0 2em 1.5em;
+	text-align: left;
+	border: 1px solid gray;
+	background: white;
+}
+.mid .wordBox .explore{
+	margin-top: 0.3em;
+	width: 5em;
+	background: black;
+	color: white;
+	font-size: 1.5em;
+	height: 1.5em;
+}
+
+/*中部图像、*/
+.midImg{
+	width: 22em;
+	height: 17em;
+	position: relative;
+	top: -19em;
+	left: 50%;
+	margin-left: -11em;
+}
+.midImg img{
+	width: 100%;
+	height: 100%;
+}
+.mid .right{
+	width: 22em;
+	height: 20em;
+	position: relative;
+	/*background-color: pink;*/
+	top: -36em;
+	left: 70%;
+	margin-left:-11em; 
+}
+.mid .right .box{
+	border: .1em solid #07cbc9;
+	width: 7em;
+	height: 5em;
+	margin:0 auto 2em 10em;
+	/*background-color: red;*/
+	text-align: center;
+	line-height: 2em;
+}
+.right hr{
+	width: 2em;
+	color: #07cbc9;
+	margin:0 auto;
+}
+
+/*gallery区域*/
+.gallery{
+	width: 100%;
+	height: 46em;
+	/*position:absolute;
+	top: 69em;*/
+	overflow: hidden;
+}
+.galleryLine1,.galleryLine2{
+	width: 100%;
+	height: 23em;
+	background-color: gray;
+	position:absolute;
+	top: 69em;
+	overflow: hidden;
+}
+.galleryLine2{
+	top: 92em;
+}
+.galleryBox,.galleryBox1{
+	width: 25%;
+	box-sizing: border-box;
+	height: 23em;
+	background: #07cbc9;
+	padding: 1em;
+	float: left;
+}
+.galleryBox1{
+	padding:0;
+}
+.galleryBox h1{
+	font-size: 2em;
+	line-height: 2em;
+}
+.galleryBox h2{
+	font-size: 1.1em;
+	line-height: 1.8em;
+}
+.galleryLine3{
+	width: 100%;
+	height: 8em;
+	position: absolute;
+	top: 120em;
+	text-align: center;
+}
+.galleryLine3 h1,{
+	font-size: 2em;
+	line-height: 2em;
+}
+.galleryLine3 hr{
+	width: 3em;
+	margin:0.5em auto;
+	line-height: 2em;
+	color: #07cbc9;
+
+}
+.galleryLine3 p{
+
+}
+/*行4*/
+.galleryLine4{
+	position: absolute;
+}
+.galleryLine4 img{
+	width: 100%;
+	height: 100%;
+}
+.galleryLine4 .line1{
+	width: 93em;
+	height: 16em;
+	position:absolute;
+	left: 500%;
+	margin: 0 20em 0 20em;
+	top: 130em;
+	/*left: 50%;*/
+	overflow: hidden;
+}
+.galleryLine4 .line2{
+	width: 93em;
+	height: 16em;
+	position:absolute;
+	top: 143em;
+	margin: 0 20em 0 20em;
+
+}
+.galleryLine4 .box{
+	width: 15em;
+	height: 12em;
+	margin: 1.3em;
+	background-color:  black;
+	float: left;
+}
+.galleryLine4 .text{
+
+	background-color: black;
+	color: white;
+	font-size: 1em;
+	line-height: 100%;
+	margin: 0 3em 0 3em;
+}
+.foot{
+	position: absolute;
+	top: 170em;
+	width: 100%;
+	height: 4em;
+	margin-top: -4em;
+	line-height: 4em;
+	text-align: center;
+	color: white;
+	background-color: #07cbc9;
+}
